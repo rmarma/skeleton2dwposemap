@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "skeleton_to_dwposemap"
+version = "0.1.0"
+name = "Skeleton2DWPoseMap"
+tagline = "Visualize armature skeletons as DWPose Map"
+maintainer = "R.M.A."
+type = "add-on"
+website = "https://github.com/rmarma/skeleton2dwposemap"
+tags = ["Modeling", "Mesh", "Camera", "Render"]
+blender_version_min = "5.0.1"
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
