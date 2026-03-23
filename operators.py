@@ -125,9 +125,9 @@ class DWPOSE_BONES_OT_create_dwpose(Operator):
                 if marker.id == "dwpose_nose":
                     marker_empty.location += Vector((0.0, 0.07, 0.15)) * marker_empty.scale
                 elif marker.id == "dwpose_eye_l":
-                    marker_empty.location += Vector((-0.039833, 0.106656, 0.10943)) * marker_empty.scale
-                elif marker.id == "dwpose_eye_r":
                     marker_empty.location += Vector((0.039833, 0.106656, 0.10943)) * marker_empty.scale
+                elif marker.id == "dwpose_eye_r":
+                    marker_empty.location += Vector((-0.039833, 0.106656, 0.10943)) * marker_empty.scale
                 elif marker.id == "dwpose_ear_l":
                     marker_empty.location += Vector((0.095, 0.082615, 0.025)) * marker_empty.scale
                 elif marker.id == "dwpose_ear_r":
@@ -150,9 +150,9 @@ class DWPOSE_BONES_OT_create_dwpose(Operator):
             if not marker_empty:
                 continue
             if marker.id == "dwpose_hand_l":
-                marker_empty.location += Vector((0.0, 0.03, 0.0)) * marker_empty.scale
+                marker_empty.location += Vector((0.0, 0.018, 0.0)) * marker_empty.scale
             if marker.id == "dwpose_hand_r":
-                marker_empty.location += Vector((0.0, 0.03, 0.0)) * marker_empty.scale
+                marker_empty.location += Vector((0.0, 0.018, 0.0)) * marker_empty.scale
             markers[marker] = marker_empty
         return markers
 

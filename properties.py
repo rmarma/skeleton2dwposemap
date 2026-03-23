@@ -16,35 +16,35 @@ class DWPoseMapProperties(PropertyGroup):
     body_points_radius: FloatProperty(
         name="Body points radius",
         description="Sets the radius of points when displaying the body skeleton in DWPose.",
-        default=0.02,
+        default=0.005,
         min=0.0,
         precision=3
     )
     hands_points_radius: FloatProperty(
         name="Hands points radius",
         description="Sets the radius of points when displaying the hands skeleton in DWPose.",
-        default=0.01,
+        default=0.005,
         min=0.0,
         precision=3
     )
     face_points_radius: FloatProperty(
         name="Face points radius",
         description="Sets the radius of points when displaying the face skeleton in DWPose.",
-        default=0.015,
+        default=0.005,
         min=0.0,
         precision=3
     )
     body_lines_radius: FloatProperty(
         name="Body lines radius",
         description="Sets the radius of lines when displaying the body skeleton in DWPose.",
-        default=0.015,
+        default=0.004,
         min=0.0,
         precision=3
     )
     hands_lines_radius: FloatProperty(
         name="Hands lines radius",
         description="Sets the radius of lines when displaying the hands skeleton in DWPose.",
-        default=0.005,
+        default=0.001,
         min=0.0,
         precision=3
     )
